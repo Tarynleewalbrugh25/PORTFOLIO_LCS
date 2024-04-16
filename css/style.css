@@ -972,9 +972,10 @@ p {
       padding-left: 30px;
   }
 }
+
 @media only screen and (max-width: 767px) {
-  .home-img {
-    margin-bottom: 20px; /* Adjust as needed to move the image closer to the navbar */
+  .text-sm {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    line-height: 1.4; /* Adjust line height for better readability */
   }
 }
-

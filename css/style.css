@@ -308,7 +308,6 @@ span{
     box-shadow: none;
 }
 .about {
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;

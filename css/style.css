@@ -147,7 +147,9 @@ i {
 	bottom: 0;
     left: -25px;
 }
-
+.navbar-toggler{
+  background-color: #fff;
+}
 
 @media(min-width: 992px){
 	.navbar-expand-custom {
@@ -417,6 +419,20 @@ span{
   top: calc(100% + 2px);
 }
 
+/* Apply text size adjustment for small screens */
+@media (max-width: 768px) {
+  .text-sm {
+      font-size: 10px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Apply button responsiveness for small screens */
+@media (max-width: 576px) {
+  .btn {
+      padding: 10px 20px; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
 
 #img{
   box-shadow: rgba(169, 206, 231, 0.1) 0px 24px 24px;
@@ -429,15 +445,12 @@ span{
 .col-md-3 {
   width: 100%; /* Adjust as needed */
 }
-align: center;
-} */
-styling: .experience-details-container1 {
+.experience-details-container1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
 
 }
-
 .about-containers{
   gap: 2rem;
   margin-bottom: 2rem;
@@ -469,24 +482,19 @@ styling: .experience-details-container1 {
   #blob {
       width: 300px; /* Adjust width for smaller screens */
       height: 300px; /* Adjust height for smaller screens */
-      margin: 20px; /* Adjust margin for smaller screens */
   }
 }
 
 @media (max-width: 576px) {
   #blob {
       width: 200px; /* Adjust width for extra small screens */
-      height: 200px; /* Adjust height for extra small screens */
-      margin: 10px; /* Adjust margin for extra small screens */
   }
 }
 @media (max-width: 992px) {
   .home-content {
       text-align: center;
   }
-  .home-img {
-      margin-top: 2rem;
-  }
+ 
 }
 
 @media (max-width: 768px) {

@@ -930,3 +930,45 @@ p {
     width: 100%;
   }
 }
+/* Adjust footer layout for medium screens */
+@media (max-width: 992px) {
+  .dk-footer .col-md-12 {
+      text-align: center;
+  }
+  .dk-footer .col-md-12.col-lg-8 {
+      margin-top: 30px;
+  }
+}
+
+/* Adjust footer layout for small screens */
+@media (max-width: 768px) {
+  .dk-footer .container {
+      padding: 0 15px;
+  }
+  .dk-footer .footer-awarad {
+      text-align: center;
+      margin-top: 30px;
+  }
+}
+
+/* Adjust font sizes for small screens */
+@media (max-width: 576px) {
+  .dk-footer h3,
+  .dk-footer p,
+  .dk-footer ul {
+      font-size: 14px;
+  }
+  .dk-footer .section-heading h3 {
+      font-size: 16px;
+  }
+}
+
+/* Adjust margins and padding for small screens */
+@media (max-width: 480px) {
+  .dk-footer .contact-us {
+      margin-bottom: 15px;
+  }
+  .dk-footer .contact-info {
+      padding-left: 30px;
+  }
+}

@@ -973,8 +973,8 @@ p {
   }
 }
 @media only screen and (max-width: 767px) {
-  .home {
-    margin: 0; /* Remove margin */
+  .home-img {
+    margin-bottom: 20px; /* Adjust as needed to move the image closer to the navbar */
   }
 }
 

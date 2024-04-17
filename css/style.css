@@ -53,7 +53,7 @@ i {
 	color: #fff;
 }
 .navbar-mainbg{
-	background-color:var(--snd-bg-color);
+	background-color:#191f36;
 	padding: 20px;
 }
 #navbarSupportedContent{
@@ -73,7 +73,7 @@ i {
 }
 
 #navbarSupportedContent ul li a{
-	color: rgba(255,255,255,0.5);
+	color: #59B2F4;
     text-decoration: none;
     font-size: 15px;
     display: block;
@@ -316,6 +316,10 @@ span{
 .about-img img {
     width: 35vw;
 }
+.about-par{
+  background-color: var(--snd-bg-color);
+  box-shadow: rgb(23, 23, 219) 0px 2px 8px 0px;
+}
 .heading {
     text-align: center;
     font-size: 4.5rem;
@@ -357,7 +361,7 @@ span{
   position: relative;
   border-radius: 5px;
   margin-right: 5px;
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
+  box-shadow: rgb(23, 23, 219) 0px 2px 8px 0px;
 }
 .timeline-content:before {
   position: absolute;
@@ -550,6 +554,7 @@ span{
 }
 .card{
   background-color: var(--snd-bg-color);
+  box-shadow: rgb(23, 23, 219) 0px 2px 8px 0px;
 }
 .card-body{
   background-color:var(--snd-bg-color);

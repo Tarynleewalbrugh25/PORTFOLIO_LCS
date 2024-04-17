@@ -56,7 +56,29 @@ jQuery(document).ready(function($){
 	target.parent().addClass('active');
 });
 
+// Get the button element by its ID
+var downloadBtn = document.getElementById('cvbtn');
 
+// Add a click event listener to the button
+downloadBtn.addEventListener('click', function() {
+    // Create a dummy anchor element
+    var downloadLink = document.createElement('a');
+
+    // Set the href attribute to the file path you want to download
+    downloadLink.href = 'path/to/your/file.txt';
+
+    // Set the download attribute to specify the default filename
+    downloadLink.download = 'filename.txt';
+
+    // Append the anchor element to the document body
+    document.body.appendChild(downloadLink);
+
+    // Trigger a click event on the anchor element to initiate the download
+    downloadLink.click();
+
+    // Clean up by removing the anchor element from the document body
+    document.body.removeChild(downloadLink);
+});
 
 
 // Add active class on another page linked

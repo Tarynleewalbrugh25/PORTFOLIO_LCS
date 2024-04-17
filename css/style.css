@@ -575,7 +575,49 @@ p {
     font-size: 16px;
     line-height: 28px;
 }
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.card {
+    flex: 0 0 calc(33.333% - 10px); /* Adjust for margins between cards */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.card figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--c, #ffffff);
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
 
    .animate-border {
   position: relative;

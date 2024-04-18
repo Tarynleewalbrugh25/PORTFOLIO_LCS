@@ -672,7 +672,7 @@ p {
 .footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: #262B40;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -681,8 +681,8 @@ p {
   flex-direction: column;
 }
 .footer p {
-  color: #fff;
+  color: var(--main-color);
   margin: 15px 0 10px 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
